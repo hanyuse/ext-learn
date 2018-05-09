@@ -1,0 +1,191 @@
+body {
+	font-family: 微软雅黑;
+	overflow: hidden;
+}
+.photo {
+	-webkit-border-radius:50em;
+	-moz-border-radius:50em;
+	border-radius:50em;
+}
+.loadingDiv {
+ 	position: absolute;
+	text-align: center;
+	font-size:12px;
+	color:#777;
+	z-index: -1;
+	top: 40%;
+  left:45%;
+}
+.logoLabel {
+ 	color: #fff;
+ 	font-size: 25px;
+}
+.red {
+ 	color: red;
+}
+.operate-noneline{
+	color: blue;
+	cursor: pointer;
+	text-decoration: none;
+	text-align: center;
+}
+
+.headCls {
+ 	background-color: #2D63B0;
+ 	padding:0px 15px 0px 15px;
+}
+
+.user-type{
+	color:#fff;
+    background:#f7cb27;
+    font-size:12px;
+    text-align:center;
+	display:inline;
+    padding: .1em .5em;
+    border-radius: 10px;
+}
+.icon-object{
+  background-image: url(icons/businessicons/object.png) !important;
+}
+.icon-food{
+  background-image: url(icons/businessicons/food.png) !important;
+}
+.icon-lipstick{
+  background-image: url(icons/businessicons/lipstick.png) !important;
+}
+.icon-health{
+  background-image: url(icons/businessicons/health.png) !important;
+}
+.icon-medical{
+  background-image: url(icons/businessicons/medical.png) !important;
+}
+.icon-bagaid{
+  background-image: url(icons/businessicons/bagaid.png) !important;
+}
+.icon-hospital{
+  background-image: url(icons/businessicons/hospital.png) !important;
+}
+.icon-special{
+  background-image: url(icons/businessicons/special.png) !important;
+}
+.icon-organization{
+  background-image: url(icons/businessicons/organization.png) !important;
+}
+.icon-danger{
+  background-image: url(icons/businessicons/danger.png) !important;
+}
+.icon-extract{
+  background-image: url(icons/businessicons/extract.png) !important;
+}
+.icon-check{
+  background-image: url(icons/businessicons/check.png) !important;
+}
+.icon-shield{
+  background-image: url(icons/businessicons/shield.png) !important;
+}
+.icon-group{
+  background-image: url(icons/businessicons/group.png) !important;
+}
+.icon-divide{
+  background-image: url(icons/businessicons/divide.png) !important;
+}
+.icon-task{
+  background-image: url(icons/businessicons/task.png) !important;
+}
+.icon-handle{
+  background-image: url(icons/businessicons/handle.png) !important;
+}
+.icon-rewrite{
+  background-image: url(icons/businessicons/rewrite.png) !important;
+}
+.icon-edit{
+  background-image: url(icons/businessicons/edit.png) !important;
+}
+.icon-clock{
+  background-image: url(icons/businessicons/clock.png) !important;
+}
+.icon-query{
+  background-image: url(icons/businessicons/query.png) !important;
+}
+.icon-queryred{
+  background-image: url(icons/businessicons/queryred.png) !important;
+}
+.icon-querygreen{
+  background-image: url(icons/businessicons/querygreen.png) !important;
+}
+.icon-queryblue{
+  background-image: url(icons/businessicons/queryblue.png) !important;
+}
+.icon-tongji{
+  background-image: url(icons/businessicons/tongji.png) !important;
+}
+.icon-chart{
+  background-image: url(icons/businessicons/chart.png) !important;
+}
+.icon-line{
+  background-image: url(icons/businessicons/line.png) !important;
+}
+.icon-print{
+  background-image: url(icons/businessicons/print.png) !important;
+}
+
+.icon-home{
+	background-image: url(icons/home.png) !important;
+}
+.icon-tab{
+	background-image: url(icons/tab.png) !important;
+}
+.icon-grid{
+	background-image: url(icons/grid.png) !important;
+}
+.icon-set{
+	background-image: url(icons/set.png) !important;
+}
+.icon-selected{
+	background-image: url(icons/selected.png) !important;
+}
+.icon-search{
+  background-image: url(icons/search.png) !important;
+}
+.icon-manage{
+	background-image: url(icons/manage.png) !important;
+}
+.icon-pdf{
+  background-image: url(icons/pdf.png) !important;
+}
+.icon-help{
+  background-image: url(icons/help.png) !important;
+}
+.icon-org{
+	background-image: url(icons/org.png) !important;
+}
+.icon-dept{
+	background-image: url(icons/dept.png) !important;
+}
+.icon-user{
+	background-image: url(icons/user.png) !important;
+}
+.icon-role{
+	background-image: url(icons/role.png) !important;
+}
+.icon-module{
+	background-image: url(icons/module.png) !important;
+}
+.icon-log{
+	background-image: url(icons/log.png) !important;
+}
+.icon-workflow{
+	background-image: url(icons/workflow.png) !important;
+}
+.icon-establish{
+	background-image: url(icons/establish.png) !important;
+}
+.icon-released{
+	background-image: url(icons/released.png) !important;
+}
+.icon-design{
+	background-image: url(icons/design.png) !important;
+}
+.icon-delete{
+	background-image: url(icons/delete.gif) !important;
+}
