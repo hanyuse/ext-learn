@@ -5,6 +5,7 @@ Ext.onReady(function(){
         height:600,
         renderTo:Ext.getBody(),
         bodyPadding:15,
+        id:"submit-form",
         fieldDefaults: {
             labelAlign: 'right',
             labelWidth: 50
@@ -26,21 +27,21 @@ Ext.onReady(function(){
                     },
                     {
                         xtype:'textfield',
-                        name: 'name',
+                        name: 'password',
                         fieldLabel: '密码',
                         columnWidth:0.3
                     },
                     {
                         xtype:'textfield',
-                        name: 'name',
-                        fieldLabel: '密码',
+                        name: 'age',
+                        fieldLabel: '年龄',
                         columnWidth:0.3
                     },
                     {
                         xtype:'textfield',
-                        name: 'name',
+                        name: 'gender',
                         style:'margin-top:5px;',
-                        fieldLabel: '密码',
+                        fieldLabel: '性别',
                         columnWidth:0.3
                     }
                 ]
@@ -51,7 +52,10 @@ Ext.onReady(function(){
                 xtype:'button',
                 text:"提交",
                 handler:function(){
-                   console.log( this.up().up("form").getForm().getValues());
+                    console.log(this.up("form").getForm().getValues());
+                    // console.log( Ext.getCmp("submit-form").getForm());
+                   
+                     // console.log( this.up().up("form").getForm().getValues());
                    
                 }
             }
