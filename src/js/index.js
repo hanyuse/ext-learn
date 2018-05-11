@@ -1,4 +1,6 @@
+//ext基础
 Ext.onReady(function(){
+<<<<<<< HEAD
     //核心API的使用
 
     /**
@@ -79,5 +81,9 @@ Ext.onReady(function(){
    */
   //console.log(Ext.query(".root2"));
   //console.log(Ext.select("div"));
+=======
+	console.log(1);
+    
+>>>>>>> 168a70f316c95e5ba6aecd25cc07b706bdf9df30
 
 })
